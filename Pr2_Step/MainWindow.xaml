@@ -1,0 +1,62 @@
+﻿<Window x:Class="Pr2_Step.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pr2_Step"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0.25*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.25*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <StackPanel>
+                    <TextBlock Text="Введите свои данные"
+                               FontSize="20" HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                    <DockPanel Margin="10">
+                        <TextBlock Text="Фамилия" FontSize="20"/>
+                        <TextBox Width="150" HorizontalAlignment="Right"
+                                 x:Name="surname"/>
+                    </DockPanel>
+                    <DockPanel Margin="10">
+                        <TextBlock Text="Имя" FontSize="20"/>
+                        <TextBox Width="150" HorizontalAlignment="Right"
+                                 x:Name="name"/>
+                    </DockPanel>
+                    <DockPanel Margin="10">
+                        <TextBlock Text="Отчество" FontSize="20"/>
+                        <TextBox Width="150" HorizontalAlignment="Right"
+                                 x:Name="lastname"/>
+                    </DockPanel>
+                    <DockPanel Margin="10">
+                        <TextBlock Text="Дата рождения" FontSize="20"/>
+                        <DatePicker Width="150" HorizontalAlignment="Right"
+                                    x:Name="date_of_birdth"/>
+                    </DockPanel>
+                    <Button x:Name="Okey" Content="Okey" Width="150"
+                            FontSize="20" Margin="10" Click="Okey_Click"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="2" HorizontalAlignment="Center"
+                  VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Ваш возраст: " FontSize="25"
+                               x:Name="textYear" Visibility="Hidden"/>
+                    <TextBlock Text="999" FontSize="25"
+                               x:Name="numberYear" Visibility="Hidden"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

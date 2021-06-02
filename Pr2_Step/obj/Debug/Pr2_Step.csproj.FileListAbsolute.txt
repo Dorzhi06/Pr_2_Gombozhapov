@@ -1,0 +1,15 @@
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\bin\Debug\Pr2_Step.exe.config
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\bin\Debug\Pr2_Step.exe
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\bin\Debug\Pr2_Step.pdb
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\Pr2_Step.csprojAssemblyReference.cache
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\MainWindow.g.cs
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\App.g.cs
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\Pr2_Step_MarkupCompile.cache
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\Pr2_Step_MarkupCompile.lref
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\MainWindow.baml
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\Pr2_Step.g.resources
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\Pr2_Step.Properties.Resources.resources
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\Pr2_Step.csproj.GenerateResource.cache
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\Pr2_Step.csproj.CoreCompileInputs.cache
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\Pr2_Step.exe
+C:\Users\dorzh\source\repos\Pr2_Step\Pr2_Step\obj\Debug\Pr2_Step.pdb
